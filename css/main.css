@@ -1,0 +1,63 @@
+main {
+    height: calc(100vh - 82px);
+    background-image: linear-gradient(45deg, #dcdbe1, #d8fdfd, #b4bff5);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 80%;
+    height: inherit;
+    margin: 0 auto;
+}
+
+.brand-container h1 {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.brand-description {
+    width: 70%;
+    text-align: center;
+    font-size: 1.125rem;
+}
+
+/* category card css */
+
+.category-card-container {
+    display: flex;
+    cursor: pointer;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card-container {
+    position: relative;
+    width: 18.75rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px var(--gray-color);
+    transition: 350ms transform ease;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+}
+
+.card-img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.category-name {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--white-color);
+}
+
+/* category card css end */

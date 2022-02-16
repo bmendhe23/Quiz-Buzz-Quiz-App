@@ -1,36 +1,43 @@
 main {
-    height: calc(100vh - 82px);
-    background-image: linear-gradient(45deg, #dcdbe1, #d8fdfd, #b4bff5);
+    height: 100%;
+    padding-bottom: 3.125rem;
+    background-image: linear-gradient(45deg, var(--gradient-1), var(--gradient-2), var(--gradient-3));
 }
 
-.container {
+.category-container {
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
-    width: 80%;
-    height: inherit;
-    margin: 0 auto;
+    padding: 50px 0;
 }
 
-.brand-container h1 {
-    font-size: 4rem;
-    font-weight: 900;
-}
-
-.brand-description {
-    width: 70%;
+.category-title {
+    margin-bottom: 3.125rem;
     text-align: center;
-    font-size: 1.125rem;
+    font-size: 2.4rem;
 }
 
-/* category card css */
+/* hr style */
+
+hr {
+    border: 0;
+    height: 0;
+    width: 70%;
+    margin: 0 auto;
+    border-top: 1px solid var(--border-top-hr);
+    border-bottom: 1px solid var(--border-bottom-hr);
+}
+
+/* category quiz card container */
 
 .category-card-container {
     display: flex;
     cursor: pointer;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 2rem;
 }
 
@@ -50,6 +57,7 @@ main {
     border-radius: 10px;
     max-width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .category-name {
@@ -61,4 +69,4 @@ main {
     color: var(--white-color);
 }
 
-/* category card css end */
+/* category quiz card end */

@@ -15,4 +15,9 @@
     --nav-background: #303032;
     --white-color: #FFFFFF;
     --gray-color: gray;
+    --border-top-hr: rgba(0, 0, 0, 0.1);
+    --border-bottom-hr: rgba(255, 255, 255, 0.3);
+    --gradient-1: #dcdbe1;
+    --gradient-2: #d8fdfd;
+    --gradient-3: #b4bff5;
 }

@@ -1,9 +1,46 @@
 main {
     display: flex;
-    align-items: center;
     justify-content: center;
     height: calc(100vh - 82px);
     padding-bottom: 3.125rem;
     background-image: linear-gradient(45deg, var(--gradient-1), var(--gradient-2), var(--gradient-3));
 }
 
+.question-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 2rem;
+    width: 50%;
+}
+
+.question-container h2 {
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.question-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.question-info .question {
+    text-align: justify;
+}
+
+.quiz-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz-options li {
+    padding: 2rem 3rem;
+    text-align: center;
+    list-style: none;
+    margin-bottom: 1rem;
+    color: var(--white-color);
+    background-color: var(--nav-background);
+    border: 1px solid var(--nav-background);
+    border-radius: 25px;
+}

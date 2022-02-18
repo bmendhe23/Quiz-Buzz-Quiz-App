@@ -44,6 +44,7 @@ hr {
 .card-container {
     position: relative;
     width: 18.75rem;
+    height: 100%;
     border-radius: 10px;
     box-shadow: 5px 5px 10px var(--gray-color);
     transition: 350ms transform ease;

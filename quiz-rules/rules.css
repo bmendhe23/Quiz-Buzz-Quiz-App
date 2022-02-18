@@ -22,3 +22,31 @@ main {
 .rules-container p {
     line-height: 1.8;
 }
+
+/* start quiz button */
+
+.rules-container button {
+    cursor: pointer;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .8rem 1rem;
+    align-self: center;
+    border: none;
+    color: var(--white-color);
+    margin-top: 2rem;
+    border-radius: 10px;
+    background-color: var(--nav-background);
+}
+
+.rules-container button:hover {
+    background-color: var(--button-hover);
+}
+
+.rules-container .material-icons {
+    margin-left: .5rem;
+    font-size: 1.125rem;
+}
+
+/* start quiz button css end */

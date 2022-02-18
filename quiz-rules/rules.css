@@ -1,5 +1,4 @@
 main {
-    height: calc(100vh - 82px);
     padding-bottom: 3.125rem;
     background-image: linear-gradient(45deg, var(--gradient-1), var(--gradient-2), var(--gradient-3));
 }
@@ -10,7 +9,6 @@ main {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    /* align-items: center; */
     justify-content: center;
     padding: 50px 0;
 }
@@ -22,6 +20,5 @@ main {
 }
 
 .rules-container p {
-    text-align: justify;
     line-height: 1.8;
 }

@@ -1,0 +1,51 @@
+main {
+    flex-direction: column;
+    align-items: center;
+}
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 2rem;
+    width: 50%;
+}
+
+.result-container h2 {
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.question-container {
+    margin-bottom: 2rem;
+}
+
+.final-score {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.quiz-options li {
+    cursor: auto;
+    border: none;
+}
+
+.quiz-options li:hover {
+    background-color: var(--nav-background);
+}
+
+.quiz-options .correct {
+    background-color: var(--correct);
+}
+
+.quiz-options .correct:hover {
+    background-color: var(--correct);
+}
+
+.quiz-options .wrong {
+    background-color: var(--incorrect);
+}
+
+.quiz-options .wrong:hover {
+    background-color: var(--incorrect);
+}
